@@ -1,0 +1,22 @@
+package control_flow;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		
+		int counter = 0;
+		
+		while (counter < 30) {
+			System.out.println("Chapel is a goddess! Counter = " + counter);
+			counter++;
+			
+			if(counter == 30) {
+			// Terminating loop early
+			break;}
+		}
+	}
+	
+	public static void printCategories(String str) {
+		System.out.println(str);
+	}
+}
